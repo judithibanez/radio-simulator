@@ -44,7 +44,7 @@ Built as a portfolio project during a BSc in Telecommunications Systems Engineer
 ## Installation
 
 ```bash
-git clone https://github.com/your-username/radio-simulator.git
+git clone https://github.com/judithibanez/radio-simulator.git
 cd radio-simulator
 
 python3 -m venv venv
