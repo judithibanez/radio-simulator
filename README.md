@@ -2,7 +2,7 @@
 
 Interactive tool to simulate and visualize radio coverage of base stations on a real map, using industry-standard propagation models.
 
-Built as a portfolio project during a BSc in Telecommunications Systems Engineering (ETSETB – UPC), applying knowledge from an internship at Cellnex Telecom (Connectivity – Technology & Planning).
+Built as a portfolio project during a BSc in Telecommunications Systems Engineering (ETSETB – UPC)
 
 ---
 
