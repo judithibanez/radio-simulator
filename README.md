@@ -1,4 +1,4 @@
-# 📡 Radio Coverage Simulator
+# Radio Coverage Simulator
 
 Interactive tool to simulate and visualize radio coverage of base stations on a real map, using industry-standard propagation models.
 
