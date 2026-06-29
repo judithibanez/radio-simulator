@@ -268,7 +268,7 @@ def calculate_coverage_grid(
     """
     Calculates RSSI at each point of a grid around a single antenna.
     Automatically selects Okumura-Hata, COST-231 or FSPL based on frequency.
-    Includes optional ITU-R P.838 rain attenuation (active above 5 GHz).
+    Includes optional ITU-R P.838 rain attenuatison (active above 5 GHz).
     """
     model = select_model(f_mhz)
     lats, lons = _build_grid(antenna_lat, antenna_lon, radius_km, steps)
