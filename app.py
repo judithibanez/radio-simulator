@@ -253,7 +253,7 @@ if st.session_state.data is not None:
         center_lat = df["lat"].mean()
         center_lon = df["lon"].mean()
         m = folium.Map(location=[center_lat, center_lon],
-                       zoom_start=12, tiles="CartoDB positron")
+                       zoom_start=12, tiles="OpenStreetMap")
 
         for row in df.itertuples():
             folium.CircleMarker(
@@ -459,5 +459,5 @@ if st.session_state.data is not None:
 
 else:
     st.info("Configure the parameters in the left panel and press **Calculate coverage**.")
-    m = folium.Map(location=[41.3874, 2.1686], zoom_start=11, tiles="CartoDB positron")
+    m = folium.Map(location=[41.3874, 2.1686], zoom_start=11, tiles="OpenStreetMap")
     st_folium(m, width=700, height=450)
