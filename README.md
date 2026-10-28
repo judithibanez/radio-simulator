@@ -4,6 +4,10 @@ Interactive tool to simulate and visualize radio coverage of base stations on a 
 
 Built as a portfolio project during a BSc in Telecommunications Systems Engineering (ETSETB – UPC)
 
+**Live demo:** https://radio-simulator.streamlit.app
+
+![Demo](assets/demo.png)
+
 ---
 
 ## Features
