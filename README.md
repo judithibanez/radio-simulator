@@ -58,6 +58,17 @@ Open `http://localhost:8501` in your browser.
 
 ---
 
+## Run with Docker
+
+```
+docker build -t radio-simulator .
+docker run --rm -p 8501:8501 radio-simulator
+```
+
+Open `http://localhost:8501` in your browser.
+
+---
+
 ## Project structure
 
 ```
@@ -65,6 +76,8 @@ radio-simulator/
 ├── app.py            # Streamlit interface
 ├── models.py         # Propagation models, rain attenuation, link budget
 ├── requirements.txt
+├── Dockerfile
+├── .dockerignore
 └── README.md
 ```
 
